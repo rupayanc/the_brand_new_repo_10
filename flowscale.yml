@@ -3,4 +3,10 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
-workflows: []
+workflows:
+  - id: 60jp2ctcoyl
+    name: abcfg_api.json
+    description: ''
+    file: asda/abcfg_api.json
+    version: 0
+normal_workflows: []
