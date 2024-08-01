@@ -9,7 +9,7 @@ workflows:
     description: ''
     file: asda/abcfg_api.json
     version: 2
-    skip_preprocess: false
+    skip_preprocess: true
     inputs:
       - path: 9.inputs.filename_prefix
         label: filename_prefix
