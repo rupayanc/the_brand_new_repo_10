@@ -35,4 +35,8 @@ workflows:
     outputs:
       - label: Output
         demo_type: image
-normal_workflows: []
+normal_workflows:
+  - id: 17u7hqjlctah
+    name: normal.json
+    file: asda/normal.json
+    version: 0
