@@ -1,4 +1,4 @@
-version: 4
+version: 5
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -9,4 +9,29 @@ workflows:
     description: ''
     file: asda/bg_api.json
     version: 0
+    inputs:
+      - path: 9.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_90115
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+      - path: 6.inputs.text
+        label: ''
+        parameter_name: text_39692
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 10.inputs.image
+        label: ''
+        parameter_name: image_95121
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
+    outputs:
+      - label: Output
+        demo_type: image
 normal_workflows: []
