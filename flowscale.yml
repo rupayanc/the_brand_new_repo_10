@@ -3,36 +3,5 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
-workflows:
-  - id: nw75acpurb
-    name: abcfg_api.json
-    description: ''
-    file: asda/abcfg_api.json
-    version: 2
-    skip_preprocess: true
-    inputs:
-      - path: 9.inputs.filename_prefix
-        label: filename_prefix
-        parameter_name: filename_prefix_16207
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 6.inputs.text
-        label: ''
-        parameter_name: text_22042
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 10.inputs.image
-        label: ''
-        parameter_name: image_33322
-        type: string
-        demo_type: image
-        category: input
-        randomize: false
-    outputs:
-      - label: Output
-        demo_type: image
+workflows: []
 normal_workflows: []
